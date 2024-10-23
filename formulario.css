@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+header{
+    width: 100%;
+    height: 140px;
+    background: linear-gradient(to right, #ffc21c, #ff2508, #d30000);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 3px rgba(0, 0, 0, 0.295);
+
+}
+
+.container-logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-texto{
+    margin-right: 7px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+
+}
+
+.logo-imagem{
+    margin-left: 7px;
+}
+
+
+
+fieldset{
+    border: 0;
+}
+
+body{
+/*isso aqui mexe com todos os itens da pagina*/
+    font-family: sans-serif;
+    justify-content: center;
+    background-color: rgba(43, 43, 43, 0.959);
+
+
+}
+
+
+
+fieldset.fodona{
+    text-align: center;
+}
+
+input, select, button{
+    border-radius: 15px;
+
+}
+
+.campo input{
+    width: 300px;
+    color: rgb(43, 43, 43);/*muda a cor da letra que o usuario vai digitar*/
+    background-color: rgb(223, 214, 187);/*muda a cor do fundo*/
+}
+
+button{
+    width: 250px;
+}
+
+fieldset.grupo{
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.campo, .ronaldo{
+    margin-bottom: 1em;
+}
+
+
+.campo label, .ronaldo label{/*muda a cor das letras*/
+    margin-bottom: 1em;
+    color: #fffeeb;
+    display: inline-flex;
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+}
+
+
+.campo input[type="text"], .campo input[type="email"], .campo input[type="password"], .ronaldo select{/*estilo geral dos treco*/
+    padding: 1em;
+    border: 0px solid #000000;
+    box-shadow: 0px 2px 2px rgb(0, 0, 0);
+    display: block;
+
+}
+
+.ronaldo input[type="color"]{/*estilo do seletor de cores*/
+    padding: 1px;
+    border: 1px solid #000000;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.2);
+    display: block;
+
+}
+
+
+fieldset.colorido{/*seletor de cores*/
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset.estorvo{/*deseja comparilhar o ip*/
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+
+
+}
+
+
+fieldset.gay{/*seletor de genero*/
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.campo input:focus, .ronaldo select:focus{
+    background: #ffffff; /*isso aqui é a sombrinha que aparece quando clica*/
+}
+
+.botao{
+    font-size: 1.2em;
+    background: #a50e0e;
+    border: 0;
+    margin-bottom: 1em; 
+    color: #e9e9e9;
+    padding: 9px;
+    box-shadow: 0px 1px 0px rgb(0, 0, 0);
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
+    
+}

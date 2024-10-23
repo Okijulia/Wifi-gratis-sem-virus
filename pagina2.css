@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+fieldset{
+    border: 0;
+}
+
+body{
+    justify-content: center;
+}
+
+fieldset.imagem{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 10px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.texto{
+    margin-right: 2px;
+    margin-left: 2px;
+}
+
+fieldset.pergunta{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
